@@ -1,0 +1,18 @@
+Package: BasicMC
+Type: Package
+Title: Formation of transition matrix from raw data, simple analysis and applications of finite-state discrete time-homogeneous Markov Chain 
+Version: 0.1.0
+Author: Ziqing Ho
+Maintainer: Ziqing Ho <zh2n15@soton.ac.uk>
+Description: Form a transition matrix from raw data. Classify recurrent, transient and absorbing states, calculate the n-step transition probabilities and conditional distribution, carry out simple simulation and applications of finite-state discrete time-homogeneous Markov Chain. 
+Depends: R (>= 3.5.0)
+Imports: igraph, methods 
+Encoding: UTF-8
+License: GPL (>=2)
+LazyData: true
+RoxygenNote: 6.1.0
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+
